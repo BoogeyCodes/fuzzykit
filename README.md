@@ -91,6 +91,8 @@ Node 18+. Ships as ESM and CommonJS with type definitions. No runtime dependenci
   boosts a shared prefix of up to four characters.
 - **Dice** counts shared bigrams by multiplicity (a repeated pair matches as many times as it
   appears), not mere presence.
+- **Jaccard** compares the *sets* of distinct bigrams: shared pairs over the union of pairs. Order-
+  insensitive like Dice, but it ignores repeats.
 
 ## Development
 

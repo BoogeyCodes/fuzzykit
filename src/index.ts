@@ -1,6 +1,7 @@
 export { levenshtein, levenshteinSimilarity } from './levenshtein.js'
 export { jaro, jaroWinkler } from './jaroWinkler.js'
 export { diceCoefficient } from './dice.js'
+export { jaccardSimilarity } from './jaccard.js'
 export {
   search,
   bestMatch,
