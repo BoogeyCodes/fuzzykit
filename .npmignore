@@ -1,8 +1,14 @@
 src/
 test/
+web/
+dist-web/
+docs/
 .github/
 coverage/
 tsconfig.json
+tsconfig.web.json
 tsup.config.ts
 vitest.config.ts
+vite.config.ts
+Dockerfile
 *.log
